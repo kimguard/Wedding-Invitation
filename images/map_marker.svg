@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #d0655b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-1" cx="12.016" cy="12.766" r="9.984"/>
+  <path id="pin_copy" data-name="pin copy" class="cls-2" d="M12.016,1.71A11.189,11.189,0,0,1,23.2,12.9c0,6.179-10.767,22.467-11.189,22.467S0.827,19.078.827,12.9A11.189,11.189,0,0,1,12.016,1.71Zm0,2.659A8.53,8.53,0,1,1,3.485,12.9,8.53,8.53,0,0,1,12.016,4.369ZM12,17.988L6.636,9.625l10.726,0Z"/>
+</svg>
