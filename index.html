@@ -880,8 +880,12 @@
           <script>
             const date1 = new Date();
             const date2 = new Date("2022-05-14");
+            console.log(date1);
+            console.log(date2);
             const diffDate = date2.getTime() - date1.getTime();
-            const dateDays = Math.ceil(diffDate / (1000 * 60 * 60 * 24));
+            console.log(diffDate);
+            const dateDays = Math.floor(diffDate / (1000 * 60 * 60 * 24));
+            console.log(dateDays);
             if( dateDays == 0 ) {
               $("#dday").text("오늘");  
               $("#dday_info").text("입니다.");
@@ -900,7 +904,7 @@
     </div>
   
 
-    <div class="group_gallery" style="order:60">
+    <div class="group_gallery" style="margin-top:90px;order:60">
 	    <div class="group_wrapper">
         <div class="scrollStop"></div>
         <div class="bg_deco putOnBg_container">
@@ -1038,7 +1042,7 @@
 	    <div class="group_wrapper">
 		    <div class="sub_bg">
 	  	    <div class="scrollStop"></div>
-	        <div class="group_title fit_center">
+	        <div class="group_title fit_center" style="margin-top:60px;">
             <img src="images/title_location.png" alt="title location"/>
           </div>
 
@@ -1284,7 +1288,7 @@
     <div class="group_bottom" style="order:120">
       <div class="group_wrapper">
         <div class="slogan fit_center">
-          <div class="txt prdFont fontN-1 fit_center">행복하게 잘 살겠습니다.</div>
+          <div class="txt prdFont fontN-1 fit_center" style="margin-top:70px;">행복하게 잘 살겠습니다.</div>
         </div>
         <div class="bg_deco putOnBg_container">
           <div class="bg1 bgl column2">
