@@ -1334,35 +1334,10 @@
         $("#top_margin").css("margin-top","117%");
       }
     }
-    window.onload = function(){
+    //window.onload = function(){
     //   topNoticeOff();
-      const today = new Date();
-      const date1 = new Date( String(today.getFullYear()) + "-" + String(today.getMonth()+1) + "-" + String(today.getDate()) + " 00:00:00");
-      const date2 = new Date("2022-05-14 00:00:00");
-
-      const KR_TIME_DIFF = 9 * 60 * 60 * 1000;
-
-      const date1_utc = date1.getTime() + (date1.getTimezoneOffset() * 60 * 1000);
-      const date1_kr = new Date(date1_utc + KR_TIME_DIFF);
-
-      const date2_utc = date2.getTime() + (date2.getTimezoneOffset() * 60 * 1000);
-      const date2_kr = new Date(date2_utc + KR_TIME_DIFF);
-
-      const diffDate = date2_kr.getTime() - date1_kr.getTime();
-      const dateDays = Math.floor(diffDate / (1000 * 60 * 60 * 24));
-      if( dateDays == 0 ) {
-        $("#dday").text("오늘");  
-        $("#dday_info").text("입니다.");
-      }
-      else if ( dateDays >= 1 ) {
-        $("#dday").text(Math.abs(dateDays));
-        $("#dday_info").text("일 남았습니다.");
-      }
-      else {
-        $("#dday").text(Math.abs(dateDays));
-        $("#dday_info").text("일 지났습니다.");
-      }
-    }
+      
+    //}
   </script>
 </body>
 </html>
